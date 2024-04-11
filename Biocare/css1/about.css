@@ -1,0 +1,145 @@
+﻿/*.slide1 {
+    background-image: url('../images/about/a1.jpeg');
+    height: 600px;
+}
+.about-section {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+    .about-section h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 70px;
+    }*/
+
+.con{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    max-width: 1170px;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.about_section .detail-box,
+.contact_section .img-box {
+    margin-top: 45px;
+}
+
+
+/*.heading {
+    font-size: 42px;
+    font-weight: bold;
+    color: #009900;
+    margin-left: 20px;
+    margin-top: 5px;
+}*/
+
+.container2 {
+    position: relative;
+    width: 1490px;
+    height: 300px;
+    /*background-color: lightgrey;*/
+}
+
+.con2 {
+    position: absolute;
+    right: 4px;
+    width: 50%;
+    height: 290px;
+    /*background-color: lightgrey*/;
+}
+
+.con2 h1 {
+    position: relative;
+    font-weight: bold;
+    /*right: 4px;*/
+}
+
+/*for mv block*/
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.column {
+    width: 100%;
+    display: block;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: 220px;
+    text-align: center;
+    margin-left: 6%;
+    align-content: center;
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+/*.cd1 {
+    padding: 2px 16px;
+}*/
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: 220px;
+    margin-left: 52%;
+    text-align: center;
+    align-content: center;
+}
+
+    .card1:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+/*.cd2 {
+    padding: 2px 16px;
+}*/
+
+/*.card-group > .card + .card {
+    margin-left: 0;
+    border-left: 0;
+}
+
+.cd1 {
+    height: 400px;
+}*/
+
+.para {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.p1 {
+    font-size: 18px;
+}
+
+/*end of mv block*/

@@ -1,0 +1,310 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="bio.master.cs" Inherits="Biocare.bio" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <meta charset="utf-8">
+          <title>BIOCARE FORMULATION</title>
+
+          <!-- Mobile Specific Metas
+          ================================================== -->
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="description" content="Construction Html5 Template">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+          
+          <!-- Favicon -->
+          <link rel="shortcut icon" type="image/x-icon" href="images/BIOCAREE.png" />
+            
+          <!-- Themefisher Icon font -->
+          <link rel="stylesheet" href="css/style.css">
+
+          <!-- bootstrap.min css -->
+          <link rel="stylesheet" href="css/boot1.min.css">
+
+          <!-- Slick Carousel -->
+          <link rel="stylesheet" href="css/slick/slick.css">
+          <link rel="stylesheet" href="css/slick/slick-theme.css">
+
+          <!-- Main Stylesheet -->
+          <link rel="stylesheet" href="css/style1.css"> 
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        .arrow {
+          border: solid black;
+          border-width: 0 2px 2px 0;
+          display: inline-block;
+          padding: 3px;
+        }
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+        </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body id="body">
+
+<!-- Start Top Header Bar -->
+<section class="top-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<div class="contact-number">
+                    <i class="fa fa-phone" style="font-size:24px"></i>
+					<%--<i class="tf-ion-ios-telephone"></i>--%>
+					<span>0129- 12323-123123</span>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				
+                
+                <!-- Logo -->
+				<div class="logo text-center">
+					<a href="home.aspx" style="line-height: normal;">
+						
+						
+								<h1 style="font-size:50px; font-family:'Futura Bk BT';color:#1c6186;letter-spacing: 0.2em; ">BIOCARE</h1>
+                               
+                                <h2 style="font-family:'Futura Md BT';">  FORMULATION</h2>					
+					</a>
+				</div>
+			</div>
+
+
+			<div class="col-md-4 col-xs-12 col-sm-4">
+	
+				<ul class="top-menu text-right list-inline">
+					
+					<!-- Search -->
+					<li class="dropdown search dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <i class="fa fa-search" style="font-size:20px"></i>
+                            <%--<i class="tf-ion-ios-search-strong"></i>--%> Search</a>
+						<ul class="dropdown-menu search-dropdown">
+							<li>
+								<form action="post"><input type="search" class="form-control" placeholder="Search..."></form>
+							</li>
+						</ul>
+					</li><!-- / Search -->
+
+				
+
+				</ul><!-- / .nav .navbar-nav .navbar-right -->
+			</div>
+		</div>
+	</div>
+</section><!-- End Top Header Bar -->
+
+
+<!-- Main Menu Section -->
+<section class="menu">
+	<nav class="navbar navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<h2 class="menu-title">Main Menu</h2>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div><!-- / .navbar-header -->
+
+<!-- Navbar Links -->
+<div id="navbar" class="navbar-collapse collapse text-center" style="font-weight:500;">
+<ul class="nav navbar-nav">
+
+
+    <!-- Discover -->
+    <li class="dropdown  dropdown-slide">
+        <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Discover Biocare 
+                              <span class="arrow down"></span>
+        </a>
+        <div class="dropdown-menu">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 mb-sm-3">
+                    <ul style="width:300px;">
+                        <li class="dropdown-header">Discover</li>
+                        <li role="separator" class="divider"></li>
+
+                        <li><a href="h12.aspx">Company Philosophy</a></li>
+                        <li><a href="#">Corporate Sustainability</a></li>
+                        <li><a href="#">Our Business</a></li>
+                        <li><a href="#">Investors Realtions</a></li>
+                        <li><a href="#">Manufacturing Capabilities</a></li>
+                        <li><a href="#">Research & Innovation</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <!-- / discover -->
+
+
+
+
+	<!-- product -->
+	<li class="dropdown ">
+		<a href="#">Products</a>
+	</li><!--/product -->
+
+
+
+    <!-- CSR -->
+    <li class="dropdown ">
+        <a href="#">CSR</a>
+    </li>
+    <!--/csr -->
+
+    <!-- services -->
+    <li class="dropdown ">
+        <a href="#">Services</a>
+    </li>
+    <!--/services -->
+
+    <!-- insights -->
+    <li class="dropdown dropdown-slide">
+        <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Insights
+            <span class="arrow down"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Global News & Trends</a></li>
+            <li><a href="#">Events</a></li>
+        </ul>
+    </li>
+    <!-- / insights -->
+
+
+
+
+
+    <!-- join us -->
+    <li class="dropdown dropdown-slide">
+        <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Join Us 
+            <span class="arrow down"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">As a Client</a></li>
+            <li><a href="#">As a Vendor</a></li>
+            <li><a href="#">As a Team Member</a></li>
+        </ul>
+    </li>
+    <!-- /join us -->
+
+    <!-- Shop -->
+    <li class="dropdown dropdown-slide">
+        <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+            role="button" aria-haspopup="true" aria-expanded="false">Reach Us <span
+                class="arrow down"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="typography.html">Contact Us</a></li>
+            <li><a href="buttons.html">Drug Shortage Form</a></li>
+            
+        </ul>
+    </li>
+    <!-- / shop-->
+
+
+	</ul>
+<!-- / .nav .navbar-nav -->
+
+			</div>
+			<!--/.navbar-collapse -->
+		</div><!-- / .container -->
+	</nav>
+</section>
+
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+
+
+    <footer class="footer section text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="social-media">
+					<li>
+						<a href="https://www.facebook.com/themefisher">
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/themefisher">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.twitter.com/themefisher">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.pinterest.com/themefisher/">
+							<i class="fa fa-pinterest"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="footer-menu text-uppercase">
+					<li>
+						<a href="contact.html">CONTACT</a>
+					</li>
+					<li>
+						<a href="shop.html">SHOP</a>
+					</li>
+					<li>
+						<a href="pricing.html">Pricing</a>
+					</li>
+					<li>
+						<a href="contact.html">PRIVACY POLICY</a>
+					</li>
+				</ul>
+				<p class="copyright-text">Copyright &copy;2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+    <!-- Main jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Touchpin -->
+    <script src="js/jquery.boot.min.js"></script>
+
+    <!-- Count Down Js-->
+    <script src="js/jquery.syotimer.min.js"></script>
+
+    <!-- slick Carousel -->
+    <script src="js/slick.min.js"></script>
+
+
+    <!-- Main Js File -->
+    <script src="js/script.js"></script>
+    
+
+
+</body>
+</html>
